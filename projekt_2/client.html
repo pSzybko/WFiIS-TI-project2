@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projekt 2</title>
+        <meta charset="UTF-8" />
+        <link rel="StyleSheet" href="zad.css" type="text/css">
+        <script src="rest.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="mainHeader">
+                <nav>
+                    <ul id="main">
+                        <li><a onclick="_log_in_form()">Zaloguj</a></li>
+                        <li><a onclick="_sign_up_form()">Zarejestruj</a></li>
+                        <li><a onclick="_ins_form_local()">Dodaj</a></li>
+                        <li><a onclick="_list_local()">Przeglądaj</a></li>
+                        
+                    </ul>
+                    <ul id="logged" hidden>
+                        <li><a onclick="_ins_form()">Dodaj</a></li>
+                        <li><a onclick="_list()">Wyniki</a></li>
+                        <li><a onclick="_log_out()">Wyloguj</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <body>
+            <div id="wrapper">
+                <div id="data"></div>
+                <div id="result"></div>
+            </div>
+        </body>
+        <footer>
+            <p>Paweł Sipko 400517</p>
+            <p>WFiIS AGH 2022</p>
+        </footer>
+    </body>
+</html>
+
